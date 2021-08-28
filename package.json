@@ -4,7 +4,9 @@
   "description": "javascript native blog without any frameworks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-prod": "npx webpack build --mode production",
+    "build-dev": "npx webpack build --mode development",
+    "start": "webpack-dev-server --mode development --open"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/AliakseiDeboi/js-blog/issues"
   },
-  "homepage": "https://github.com/AliakseiDeboi/js-blog#readme"
+  "homepage": "https://github.com/AliakseiDeboi/js-blog#readme",
+  "devDependencies": {
+    "@babel/cli": "7.14.8",
+    "@babel/core": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "babel-loader": "8.2.2",
+    "html-webpack-plugin": "5.3.2",
+    "webpack": "5.51.1",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "7.12.1"
+  }
 }
