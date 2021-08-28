@@ -1,0 +1,25 @@
+{
+  "name": "js-blog",
+  "version": "1.0.0",
+  "description": "javascript native blog without any frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliakseiDeboi/js-blog.git"
+  },
+  "keywords": [
+    "JS",
+    "Javascript",
+    "blog",
+    "javascript"
+  ],
+  "author": "Aliaksei Deboi <jagnat18@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliakseiDeboi/js-blog/issues"
+  },
+  "homepage": "https://github.com/AliakseiDeboi/js-blog#readme"
+}
