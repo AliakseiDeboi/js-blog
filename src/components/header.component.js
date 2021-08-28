@@ -9,8 +9,7 @@ export class HeaderComponent extends Component {
     if (localStorage.getItem('visited')) {
       this.hide();
     }
-    const btn = this.$el.querySelector('.js-header-start');
-    btn.addEventListener('click', buttonHandler.bind(this));
+    this.$el.querySelector('.js-header-start').addEventListener('click', buttonHandler.bind(this));
   }
 }
 
